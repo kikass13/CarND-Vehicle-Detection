@@ -62,7 +62,7 @@ As described in the lecture, i created a gridmap of windows, which slightly over
 
 ![alt text][image3]
 
-Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result. I also chose to create multiple sizes of the windows, to get a better representation of the different scales of cars (dependent on the distance). Here are some example images of the different :
+Ultimately I searched on two scales using YUV HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result. I also chose to create multiple sizes of the windows, to get a better representation of the different scales of cars (dependent on the distance). Here are some example images of the different :
 
 ![alt text][image4]
 ---
