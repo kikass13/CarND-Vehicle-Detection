@@ -35,7 +35,16 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
 
-I tried various combinations of parameters and
+I tried various combinations of parameters in the classroom.
+
+* orientations = 9 
+* * is suitable enough, hving more directions does not benefit out hog image directly 
+* pix_per_cell = 8 
+* * same parameter as the one chosen in the classrom, having a small cell-size leads to a stronger discretized hog image, which i found usefull (small cars in a distance)
+* cell_per_block = 2 
+* * same parameter as the one chosen in the classroom
+
+After playing around with the color spaces, i chose to mainly use the YUV space.
 
 #### 3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
