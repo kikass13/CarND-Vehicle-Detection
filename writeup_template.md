@@ -38,7 +38,7 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 I tried various combinations of parameters in the classroom.
 
 * orientations = 9 
-* * is suitable enough, hving more directions does not benefit out hog image directly 
+* * is suitable enough, hving more directions does not benefit our hog image directly 
 * pix_per_cell = 8 
 * * same parameter as the one chosen in the classrom, having a small cell-size leads to a stronger discretized hog image, which i found usefull (small cars in a distance)
 * cell_per_block = 2 
